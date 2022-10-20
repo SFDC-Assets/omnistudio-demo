@@ -58,7 +58,7 @@ const utils = require('./utils');
     await page.setViewport({ width: 1200, height: 837 });
     await utils.sleep(10000);
 
-
+/*
     //OmniStudio Runtime
     try {
         await page.evaluateHandle(
@@ -92,6 +92,19 @@ const utils = require('./utils');
     } catch (error) {
         console.log(error);
     }
+*/
+
+    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-178 > .slds-checkbox_faux')
+    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-178 > .slds-checkbox_faux')
+    await utils.sleep(10000);
+
+    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-179 > .slds-checkbox_faux')
+    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-179 > .slds-checkbox_faux')
+    await utils.sleep(10000);
+
+    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-180 > .slds-checkbox_faux')
+    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-180 > .slds-checkbox_faux')
+    await utils.sleep(10000);
 
     await browser.close();
 })();
