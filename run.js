@@ -71,11 +71,22 @@ const utils = require('./utils');
 
     await utils.sleep(10000);
 
-
     //Standard OmniStudio
     try {
         await page.evaluateHandle(
             () => document.querySelectorAll('runtime_omnistudio-pref-toggle')[1].shadowRoot.querySelector('lightning-input').shadowRoot.querySelector('input').click()
+        );
+
+    } catch (error) {
+        console.log(error);
+    }
+
+    await utils.sleep(10000);
+
+    //Standard OmniStudio
+    try {
+        await page.evaluateHandle(
+            () => document.querySelectorAll('runtime_omnistudio-pref-toggle')[2].shadowRoot.querySelector('lightning-input').shadowRoot.querySelector('input').click()
         );
 
     } catch (error) {
