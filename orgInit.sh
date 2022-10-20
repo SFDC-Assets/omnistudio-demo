@@ -22,7 +22,7 @@ sfdx force:apex:execute -f dparemoteSites.cls
 node run.js
 
 #Sample metadata examples into the org - basic hello world.
-sfdx force:source:deploy -p -force-app
+sfdx force:source:deploy -p force-app
 
 #open says me.
 sfdx force:org:open
