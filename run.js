@@ -56,7 +56,7 @@ const utils = require('./utils');
     ]);
 
     await page.setViewport({ width: 1200, height: 837 });
-    await utils.sleep(60000);
+    await utils.sleep(120000);
 
     //OmniStudio Runtime
     try {
@@ -68,7 +68,7 @@ const utils = require('./utils');
         console.log(error);
     }
 
-    await utils.sleep(60000);
+    await utils.sleep(120000);
 
     //Standard OmniStudio
     try {
@@ -80,7 +80,7 @@ const utils = require('./utils');
         console.log(error);
     }
 
-    await utils.sleep(60000);
+    await utils.sleep(120000);
 
     //Standard OmniStudio
     try {
