@@ -46,7 +46,7 @@ const utils = require('./utils');
 
     //await page.waitFor(10000);
     //go to /lightning/setup/OmniStudioSettings/home
-    var targetOSSettings = `https://${parsedFqdn[0]}.lightning.force.com/lightning/setup/OmniStudioSettings/home`;
+    var targetOSSettings = `https://${parsedFqdn[0]}.scratch.lightning.force.com/lightning/setup/OmniStudioSettings/home`;
     console.log(targetOSSettings)
 
     await Promise.all([
