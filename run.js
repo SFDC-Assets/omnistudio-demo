@@ -94,18 +94,5 @@ const utils = require('./utils');
         console.log(error);
     }
 
-/*
-    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-178 > .slds-checkbox_faux')
-    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-178 > .slds-checkbox_faux')
-    await utils.sleep(10000);
-
-    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-179 > .slds-checkbox_faux')
-    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-179 > .slds-checkbox_faux')
-    await utils.sleep(10000);
-
-    await page.waitForSelector('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-180 > .slds-checkbox_faux')
-    await page.click('.slds-float_right > .slds-form-element__control > .slds-checkbox_toggle > #toggle-description-180 > .slds-checkbox_faux')
-    await utils.sleep(10000);
-*/
     await browser.close();
 })();
