@@ -39,9 +39,9 @@ const utils = require('./utils');
     var parsedFqdn = fqdn.split('.');
 
 
-    const timeout = 30000;
+    const timeout = 60000;
     const page = await browser.newPage();
-    page.setDefaultTimeout(60000);
+    page.setDefaultTimeout(240000);
     await page.goto(`${frontdoor.result.url}`);
 
     //await page.waitFor(10000);
