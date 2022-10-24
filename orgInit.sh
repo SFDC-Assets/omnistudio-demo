@@ -23,6 +23,7 @@ node run.js
 
 #Sample metadata examples into the org - basic hello world.
 sfdx force:source:deploy -p force-app
+sfdx force:source:deploy -p omnideploy
 
 #open says me.
 sfdx force:org:open
