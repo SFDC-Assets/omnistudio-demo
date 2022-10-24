@@ -4,7 +4,7 @@
 sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix omni -o studio.demo
 
 #install OmniStudio - 238
-sfdx force:package:install --package=04t4W000002kepJ --wait 15 -r
+sfdx force:package:install --package=04t4W000002keqb --wait 15 -r
 
 sfdx force:package:install --package=04t1E000000jb9R --wait 15
 sfdx force:package:install --package=04t1E000001Iql5 --wait 2
