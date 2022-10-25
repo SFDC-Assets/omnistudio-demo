@@ -396,6 +396,16 @@
                 <identifier>customTab2</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>OmniScript</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>facet-6a1c27e8-973a-4828-b64c-268a40256305</name>
         <type>Facet</type>
     </flexiPageRegions>

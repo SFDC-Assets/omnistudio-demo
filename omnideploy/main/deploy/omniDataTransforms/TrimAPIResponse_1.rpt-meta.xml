@@ -147,13 +147,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom3870</globalKey>
-        <inputFieldName>CallCountriesAPI:population</inputFieldName>
+        <globalKey>TrimAPIResponseCustom6419</globalKey>
+        <inputFieldName>CallCountriesAPI:capital</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>TrimAPIResponse</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Population</outputFieldName>
+        <outputFieldName>Capital</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -161,41 +161,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom6803</globalKey>
-        <inputFieldName>ExtractAccountData:Name</inputFieldName>
+        <globalKey>TrimAPIResponseCustom9734</globalKey>
+        <inputFieldName>ExtractAccountData:Industry</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>TrimAPIResponse</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Name</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom5090</globalKey>
-        <inputFieldName>CallCountriesAPI:flag</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>TrimAPIResponse</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Flag</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom4377</globalKey>
-        <inputFieldName>CallCountriesAPI:area</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>TrimAPIResponse</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Area</outputFieldName>
+        <outputFieldName>Industry</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -231,13 +203,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom6419</globalKey>
-        <inputFieldName>CallCountriesAPI:capital</inputFieldName>
+        <globalKey>TrimAPIResponseCustom5090</globalKey>
+        <inputFieldName>CallCountriesAPI:flag</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>TrimAPIResponse</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Capital</outputFieldName>
+        <outputFieldName>Flag</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -245,13 +217,41 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>TrimAPIResponseCustom9734</globalKey>
-        <inputFieldName>ExtractAccountData:Industry</inputFieldName>
+        <globalKey>TrimAPIResponseCustom4377</globalKey>
+        <inputFieldName>CallCountriesAPI:area</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>TrimAPIResponse</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Industry</outputFieldName>
+        <outputFieldName>Area</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TrimAPIResponseCustom3870</globalKey>
+        <inputFieldName>CallCountriesAPI:population</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>TrimAPIResponse</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Population</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TrimAPIResponseCustom6803</globalKey>
+        <inputFieldName>ExtractAccountData:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>TrimAPIResponse</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

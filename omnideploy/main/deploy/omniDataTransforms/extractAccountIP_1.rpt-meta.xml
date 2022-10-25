@@ -23,55 +23,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>extractAccountIPCustom1358</globalKey>
-        <inputFieldName>Account:Industry</inputFieldName>
+        <globalKey>extractAccountIPCustom9633</globalKey>
+        <inputFieldName>Account:Description</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>extractAccountIP</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Industry</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>extractAccountIPCustom4694</globalKey>
-        <inputFieldName>Account:Name</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>extractAccountIP</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Name</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>extractAccountIPCustom4807</globalKey>
-        <inputFieldName>Account:NumberOfEmployees</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>extractAccountIP</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Employees</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>extractAccountIPCustom3596</globalKey>
-        <inputFieldName>Account:AnnualRevenue</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>extractAccountIP</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Revenue</outputFieldName>
+        <outputFieldName>Description</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -110,13 +68,55 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>extractAccountIPCustom9633</globalKey>
-        <inputFieldName>Account:Description</inputFieldName>
+        <globalKey>extractAccountIPCustom4807</globalKey>
+        <inputFieldName>Account:NumberOfEmployees</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>extractAccountIP</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Description</outputFieldName>
+        <outputFieldName>Employees</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>extractAccountIPCustom3596</globalKey>
+        <inputFieldName>Account:AnnualRevenue</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>extractAccountIP</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Revenue</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>extractAccountIPCustom1358</globalKey>
+        <inputFieldName>Account:Industry</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>extractAccountIP</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Industry</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>extractAccountIPCustom4694</globalKey>
+        <inputFieldName>Account:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>extractAccountIP</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

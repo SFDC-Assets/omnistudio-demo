@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isIntegrationProcedure>false</isIntegrationProcedure>
     <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
     <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
@@ -265,5 +265,5 @@
     <type>Update</type>
     <uniqueName>Update_Account_English_1</uniqueName>
     <versionNumber>1.0</versionNumber>
-    <webComponentKey>e5c8aa79-0066-418e-bf8e-0e7d42130d00</webComponentKey>
+    <webComponentKey>5e4387ee-8d86-77d2-2e2b-0e60839b4e88</webComponentKey>
 </OmniScript>
