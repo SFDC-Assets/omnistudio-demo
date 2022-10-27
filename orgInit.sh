@@ -7,7 +7,7 @@ sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --us
 sfdx force:package:install --package=04t4W000002keqb --wait 15 -r
 
 4t1E000001IrkoQAC
-sfdx force:package:install --package=4t1E000001IrkoQAC --wait 15
+sfdx force:package:install --package=04t1E000001Irko --wait 15
 sfdx force:package:install --package=04t1E000001Iql5 --wait 2
 sfdx shane:user:password:set -p salesforce1 -g User -l User
 sfdx force:user:permset:assign -n FinancialServicesCloudStandard
