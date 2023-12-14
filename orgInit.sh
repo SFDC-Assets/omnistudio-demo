@@ -5,7 +5,6 @@ sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --us
 
 #install OmniStudio - 246.14
 sfdx force:package:install --package=04t4W0000038bMv --wait 20 -r
-# 04tHn000001dvY4
 sfdx force:package:install --package=04tHn000001dvY4 --wait 30
 sfdx force:package:install --package=04t1E000001Iql5 --wait 2
 sfdx shane:user:password:set -p salesforce1 -g User -l User
