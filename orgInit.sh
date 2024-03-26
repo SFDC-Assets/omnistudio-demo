@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #create scratch org
-sfdx force:org:create -s -f config/project-scratch-def.json -d 14 -s -w 60
+sfdx force:org:create -s -f config/project-scratch-def.json -d 30 -s -w 60
 
 #install OmniStudio - 238
 sfdx force:package:install --package=04t1E00000127We --wait 15
