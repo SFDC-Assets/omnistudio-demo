@@ -11,15 +11,6 @@ sfdx shane:user:password:set -p salesforce1 -g User -l User
 sfdx force:user:permset:assign -n FinancialServicesCloudStandard
 sfdx force:user:permset:assign -n FinancialServicesCloudExtension
 
-#push the utility metadata service class
-# sfdx force:source:deploy -m ApexClass:MetadataService
-
-#set the remote sites
-# sfdx force:apex:execute -f dparemoteSites.cls
-
-#Puppeteer to set OmniStudio Metadata to TRUE via UI  and enable the  standard runtime
-# node run.js
-
 #Sample metadata examples into the org - basic hello world.
 sfdx force:source:deploy -p omnideploy
 sfdx force:source:deploy -p force-app
