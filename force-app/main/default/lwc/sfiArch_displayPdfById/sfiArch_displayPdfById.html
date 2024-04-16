@@ -1,0 +1,8 @@
+<template>
+    <template if:true={myfileid}>
+        <iframe height="800em" src={url}></iframe>
+    </template>
+    <template if:false={myfileid}>
+        Please enter a valid PDF File ID.
+    </template>
+</template>
