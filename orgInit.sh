@@ -14,7 +14,7 @@ sf org assign permset -n FinancialServicesCloudExtension
 
 #Sample metadata examples into the org - basic hello world.
 sf project deploy start -d omnideploy
-sf project deploy start -f
+sf project deploy start -c -g
 
 #open says me.
 sf org open
